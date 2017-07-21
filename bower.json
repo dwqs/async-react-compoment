@@ -1,5 +1,5 @@
 {
-  "name": "react-async-component",
+  "name": "async-react-component",
   "main": "dist/index.js",
   "description": "Async component loaded based webpack 3 for react-router 4",
   "authors": "pomysky@gmail.com",
