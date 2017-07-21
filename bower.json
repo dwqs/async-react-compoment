@@ -2,7 +2,7 @@
   "name": "react-async-component",
   "main": "dist/index.js",
   "description": "Async component loaded based webpack 3 for react-router 4",
-  "authors": "poomysky@gmail.com",
+  "authors": "pomysky@gmail.com",
   "license": "MIT",
   "ignore": [
     "*",

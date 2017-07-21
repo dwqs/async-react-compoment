@@ -1,7 +1,7 @@
 {
   "name": "react-async-component",
   "version": "0.0.1",
-  "author": "dwqs",
+  "author": "pomysky@gmail.com",
   "description": "Async component loaded based webpack 3 for react-router 4",
   "license": "MIT",
   "main": "dist/index.min.js",
