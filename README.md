@@ -1,6 +1,6 @@
-![dep](https://img.shields.io/david/dwqs/react-async-component.svg) ![npm-version](https://img.shields.io/npm/v/react-async-component.svg) ![license](https://img.shields.io/npm/l/react-async-component.svg) ![bower-license](https://img.shields.io/bower/l/react-async-component.svg)
+![npm-version](https://img.shields.io/npm/v/async-react-component.svg) ![license](https://img.shields.io/npm/l/async-react-component.svg) ![bower-license](https://img.shields.io/bower/l/async-react-component.svg)
 
-# react-async-compoment
+# async-react-component
 
 Async component loaded based webpack 3 for react-router 4.
 
@@ -11,19 +11,19 @@ It is recommended to run webpack on node 6.x or higher.
 Install the pkg with npm:
 
 ```
-npm install react-async-component --save
+npm install async-react-component --save
 ```
 
 or yarn
 
 ```
-yarn add react-async-component
+yarn add async-react-component
 ```
 
 or bower
 
 ```
-bower install react-async-component
+bower install async-react-component
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ For react-router 4:
 
 ```
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {getAsyncComponent} from 'react-async-component';
+import {getAsyncComponent} from 'async-react-component';
 
 // code splitting in webpack 3: https://webpack.js.org/guides/code-splitting/#dynamic-imports
 const App = () => import(/* webpackChunkName: "main" */ '../general/app/index');
