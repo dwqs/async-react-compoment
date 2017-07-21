@@ -17,7 +17,7 @@ config.plugins.push(
 export default {
     entry: 'src/index.tsx',
     format: 'umd',
-    moduleName: 'ReactAsyncComponent',
+    moduleName: 'AsyncReactComponent',
     dest: 'dist/index.min.js',
     plugins: config.plugins
 };
