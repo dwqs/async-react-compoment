@@ -13,10 +13,11 @@
     "suppressImplicitAnyIndexErrors": true,
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": true,
-    "allowUnusedLabels": true
+    "allowUnusedLabels": true,
+    "jsx": "react"
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.tsx"
   ],
   "compileOnSave": false
 }
