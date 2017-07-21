@@ -14,7 +14,7 @@ config.plugins.push(
 );
 
 export default {
-    entry: 'src/index.ts',
+    entry: 'src/index.tsx',
     format: 'umd',
     moduleName: 'react-async-component',
     dest: 'dist/index.min.js',
