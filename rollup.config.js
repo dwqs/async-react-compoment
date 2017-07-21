@@ -22,7 +22,7 @@ export default {
         typescript(),
         babel({
             exclude: 'node_modules/**',
-            externalHelpers: true
+            externalHelpers: false
         })
     ]
 }

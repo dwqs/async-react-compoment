@@ -4,7 +4,7 @@ export interface AsyncState {
     Component: any
 }
 
-function getAsyncComponent<T>(promise: Promise<T>): any {
+function getAsyncComponent<T>(promise: () => Promise<T>): any {
 	return class AsyncComponent extends React.Component<{}, AsyncState>{
         public state: AsyncState;
         
@@ -17,7 +17,7 @@ function getAsyncComponent<T>(promise: Promise<T>): any {
 
 		public componentWillMount() {
             if (!this.state.Component) {
-                promise.then((mod: any) => {
+                promise().then((mod: any) => {
                     this.setState({
                         Component: mod.default ? mod.default : mod,
                     });
@@ -38,6 +38,8 @@ function getAsyncComponent<T>(promise: Promise<T>): any {
 	}
 }
 
-export default {
-	getAsyncComponent,
+const ReactAsyncComponent = {
+    getAsyncComponent,
 };
+
+export default ReactAsyncComponent;

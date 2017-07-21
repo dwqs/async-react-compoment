@@ -8,5 +8,5 @@
     ],
     "react"
   ],
-  "plugins": ["external-helpers"]
+  "plugins": []
 }
