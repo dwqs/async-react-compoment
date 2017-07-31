@@ -1,6 +1,6 @@
 {
   "name": "async-react-component",
-  "version": "0.5.6",
+  "version": "0.6.0",
   "author": "pomysky@gmail.com",
   "description": "Async component loaded based webpack 3 for react-router 4",
   "license": "MIT",
@@ -29,6 +29,7 @@
     "fix": "npx tslint -p ./tsconfig.json --type-check --fix src/**/*.tsx"
   },
   "devDependencies": {
+    "@types/react": "^15.0.38",
     "babel-core": "^6.25.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
@@ -46,8 +47,7 @@
     "uglify-es": "^3.0.25"
   },
   "dependencies": {
-    "react": "^15.6.1",
-    "@types/react": "^15.0.38"
+    "react": "^15.6.1"
   },
   "engines": {
     "node": ">= 6.0.0",
